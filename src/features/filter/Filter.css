@@ -1,0 +1,17 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 8px;
+  background: #1c1c1c;
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px 90px 20px 20px;
+}
+
+.filter__label {
+  font-style: bold;
+  font-weight: 700;
+  white-space: nowrap;
+  pointer-events: none;
+}

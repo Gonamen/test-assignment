@@ -1,0 +1,14 @@
+.game-list__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(191px, 1fr));
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.game-list__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}

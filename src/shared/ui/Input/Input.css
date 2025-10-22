@@ -1,0 +1,23 @@
+.input {
+  height: 40px;
+  width: 356px;
+  border: 1px solid #ba8e47;
+  background-color: #1f1f1f;
+  padding: 10px 10px 10px 40px;
+  appearance: none;
+  position: relative;
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  pointer-events: none;
+  z-index: 1;
+}

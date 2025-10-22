@@ -1,0 +1,22 @@
+.select {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #ba8e47;
+  background-color: #1f1f1f;
+  padding: 10px 10px 10px 20px;
+  appearance: none;
+  outline: none;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
